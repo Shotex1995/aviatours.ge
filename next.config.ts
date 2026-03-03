@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "avia.ge",
       },
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+      },
     ],
   },
 };
