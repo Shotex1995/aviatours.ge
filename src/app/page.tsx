@@ -66,7 +66,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 text-center sm:grid-cols-4">
           <div>
             <p className="text-3xl font-extrabold text-orange-500">500+</p>
-            <p className="text-sm text-gray-500">კმაყოფილი მოგზაური</p>
+            <p className="text-sm text-gray-500">კმაყოფილი მოგზაურე</p>
           </div>
           <div>
             <p className="text-3xl font-extrabold text-orange-500">20+</p>
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-3xl font-extrabold text-orange-500">5+</p>
-            <p className="text-sm text-gray-500">წლიანი გამოცდილება</p>
+            <p className="text-sm text-gray-500">წლის გამოცდილება</p>
           </div>
           <div>
             <p className="text-3xl font-extrabold text-orange-500">24/7</p>
@@ -153,7 +153,7 @@ export default function Home() {
                 საუკეთესო ფასები
               </h3>
               <p className="text-sm text-gray-500">
-                ჩვენ გთავაზობთ კონკურენტულ ფასებს ხარისხის შეუვალობით.
+                ჩვენ გთავაზობთ კონკურენტულ ფასებს ხარისხზე კომპრომისის გარეშე.
               </p>
             </div>
 

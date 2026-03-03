@@ -92,7 +92,7 @@ export default function PriceCalculator() {
             rel="noopener noreferrer"
             className="block w-full rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 py-4 text-center text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 active:scale-95"
           >
-            დაჯავშნე {total.toLocaleString()}₾-ად
+            დაჯავშნე — {total.toLocaleString()}₾
           </a>
         </div>
       </div>

@@ -24,7 +24,7 @@ export default function ComparisonTable() {
       <div className="mx-auto max-w-3xl">
         <div className="mb-10 text-center">
           <h2 className="mb-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">პაკეტების შედარება</h2>
-          <p className="text-gray-500">ბიუჯეტური vs პრემიუმი — დეტალურად</p>
+          <p className="text-gray-500">ბიუჯეტური თუ პრემიუმი — დეტალურად</p>
         </div>
         <div className="overflow-x-auto rounded-2xl border border-gray-200 bg-white shadow-sm">
           <table className="w-full text-left">
