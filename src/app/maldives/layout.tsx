@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { antalyaData } from "@/data/tour-antalya";
+import { maldivesData } from "@/data/tour-maldives";
 
-const d = antalyaData;
+const d = maldivesData;
 
 export const metadata: Metadata = {
   title: d.seo.title,
@@ -27,7 +27,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "TouristTrip",
-      name: `${d.seo.tourName} ტური — All Inclusive`,
+      name: `${d.seo.tourName} ტური`,
       description: d.seo.description,
       touristType: d.seo.tourType,
       offers: {
