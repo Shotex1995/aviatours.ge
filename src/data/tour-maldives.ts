@@ -25,7 +25,7 @@ export const maldivesData: TourLandingData = {
     subtitle: "სამოთხის კუნძულები, კრისტალურად სუფთა წყალი, წყალზე აგებული ვილები და მარჯნის რიფები — დაუვიწყარი მოგზაურობა ინდოეთის ოკეანეში",
     oldPrice: "4,500₾",
     currentPrice: "3,650₾",
-    bookingUrl: "https://avia.ge/tours/maldives-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა მალდივების ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const maldivesData: TourLandingData = {
     premiumOldPrice: "10,500₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "All Inclusive კვება", "დაზღვევა + სპიდბოტ ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ კურორტი", "All Inclusive კვება", "დაზღვევა + VIP სპიდბოტ ტრანსფერი", "წყალზე აგებული ვილა"],
-    bookingUrl: "https://avia.ge/tours/maldives-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const maldivesData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და სპიდბოტ ტრანსფერი. თქვენ მხოლოდ დასვენებაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 3,650₾-დან",
-    bookingUrl: "https://avia.ge/tours/maldives-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ მალდივებისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 3,650₾-დან",
-    bookingUrl: "https://avia.ge/tours/maldives-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const maldivesData: TourLandingData = {
   mobileStickyBar: {
     price: "3,650₾",
     oldPrice: "4,500₾",
-    bookingUrl: "https://avia.ge/tours/maldives-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით მალდივებზე",

@@ -25,7 +25,7 @@ export const dubaiData: TourLandingData = {
     subtitle: "თანამედროვე არქიტექტურა, უდაბნოს საფარი და ფუფუნების სამყარო — აღმოაჩინე დუბაი AviaTours-თან ერთად",
     oldPrice: "1,300₾",
     currentPrice: "950₾",
-    bookingUrl: "https://avia.ge/tours/dubai-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა დუბაის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const dubaiData: TourLandingData = {
     premiumOldPrice: "4,500₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "საუზმე", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "საუზმე + სადილი", "დაზღვევა + VIP ტრანსფერი", "ზღვის ხედიანი ნომერი"],
-    bookingUrl: "https://avia.ge/tours/dubai-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const dubaiData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და აეროპორტის ტრანსფერი. თქვენ მხოლოდ დასვენებაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 950₾-დან",
-    bookingUrl: "https://avia.ge/tours/dubai-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ დუბაისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 950₾-დან",
-    bookingUrl: "https://avia.ge/tours/dubai-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const dubaiData: TourLandingData = {
   mobileStickyBar: {
     price: "950₾",
     oldPrice: "1,300₾",
-    bookingUrl: "https://avia.ge/tours/dubai-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით დუბაიში",

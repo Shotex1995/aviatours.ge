@@ -25,7 +25,7 @@ export const santoriniData: TourLandingData = {
     subtitle: "ვულკანური კუნძული, თეთრ-ცისფერი არქიტექტურა, ოიას მზის ჩასვლა და საუკეთესო ღვინო ეგეოსის ზღვის გულში",
     oldPrice: "1,800₾",
     currentPrice: "1,300₾",
-    bookingUrl: "https://avia.ge/tours/santorini-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა სანტორინის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const santoriniData: TourLandingData = {
     premiumOldPrice: "5,400₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "საუზმე", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "საუზმე + სადილი", "დაზღვევა + VIP ტრანსფერი", "კალდერის ხედიანი ნომერი"],
-    bookingUrl: "https://avia.ge/tours/santorini-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const santoriniData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ დასვენებაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 1,300₾-დან",
-    bookingUrl: "https://avia.ge/tours/santorini-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ სანტორინისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 1,300₾-დან",
-    bookingUrl: "https://avia.ge/tours/santorini-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const santoriniData: TourLandingData = {
   mobileStickyBar: {
     price: "1,300₾",
     oldPrice: "1,800₾",
-    bookingUrl: "https://avia.ge/tours/santorini-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით სანტორინიზე",

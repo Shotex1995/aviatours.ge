@@ -25,7 +25,7 @@ export default function PricingSection({ pricing }: { pricing: PricingData }) {
                 <li key={t} className="flex items-center gap-2">{checkIcon("text-green-500")}{t}</li>
               ))}
             </ul>
-            <a href={pricing.bookingUrl} target="_blank" rel="noopener noreferrer" className="block w-full rounded-xl border-2 border-orange-500 py-3 text-center font-bold text-orange-500 transition-all hover:bg-orange-500 hover:text-white">დაჯავშნა</a>
+            <a href={pricing.bookingUrl} className="block w-full rounded-xl border-2 border-orange-500 py-3 text-center font-bold text-orange-500 transition-all hover:bg-orange-500 hover:text-white">დაჯავშნა</a>
           </div>
           <div className="relative rounded-2xl border-2 border-orange-500 bg-white p-8 text-center shadow-xl shadow-orange-500/10">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-orange-500 px-4 py-1 text-xs font-bold text-white">პოპულარული</div>
@@ -38,7 +38,7 @@ export default function PricingSection({ pricing }: { pricing: PricingData }) {
                 <li key={t} className="flex items-center gap-2">{checkIcon("text-orange-500")}{t}</li>
               ))}
             </ul>
-            <a href={pricing.bookingUrl} target="_blank" rel="noopener noreferrer" className="block w-full rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 py-3 text-center font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 active:scale-95">დაჯავშნა</a>
+            <a href={pricing.bookingUrl} className="block w-full rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 py-3 text-center font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 active:scale-95">დაჯავშნა</a>
           </div>
         </div>
       </div>

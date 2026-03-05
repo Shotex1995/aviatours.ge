@@ -19,7 +19,7 @@ export default function EarlyBookingSection({ earlyBooking }: { earlyBooking: Ea
           ))}
         </div>
         <div className="mt-10 text-center">
-          <a href={earlyBooking.bookingUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-10 py-4 text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-xl active:scale-95">{earlyBooking.ctaText}</a>
+          <a href={earlyBooking.bookingUrl} className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-10 py-4 text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-xl active:scale-95">{earlyBooking.ctaText}</a>
         </div>
       </div>
     </section>

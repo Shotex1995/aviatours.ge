@@ -25,7 +25,7 @@ export const madridData: TourLandingData = {
     subtitle: "ესპანეთის დედაქალაქი, პრადოს მუზეუმი, სამეფო სასახლე და ევროპის ყველაზე ცოცხალი ღამის ცხოვრება",
     oldPrice: "1,500₾",
     currentPrice: "1,089₾",
-    bookingUrl: "https://avia.ge/tours/madrid-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა მადრიდის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const madridData: TourLandingData = {
     premiumOldPrice: "4,200₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "საუზმე", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "საუზმე + ვახშამი", "დაზღვევა + VIP ტრანსფერი", "ქალაქის ხედიანი ნომერი"],
-    bookingUrl: "https://avia.ge/tours/madrid-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const madridData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ მოგზაურობით ტკბობაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 1,089₾-დან",
-    bookingUrl: "https://avia.ge/tours/madrid-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ მადრიდისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 1,089₾-დან",
-    bookingUrl: "https://avia.ge/tours/madrid-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const madridData: TourLandingData = {
   mobileStickyBar: {
     price: "1,089₾",
     oldPrice: "1,500₾",
-    bookingUrl: "https://avia.ge/tours/madrid-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით მადრიდში",

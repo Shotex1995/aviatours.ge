@@ -25,7 +25,7 @@ export const romeData: TourLandingData = {
     subtitle: "მარადიული ქალაქი, ანტიკური არქიტექტურა, იტალიური სამზარეულო და დაუვიწყარი მოგზაურობა ევროპის გულში",
     oldPrice: "1,400₾",
     currentPrice: "999₾",
-    bookingUrl: "https://avia.ge/tours/rome-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა რომის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const romeData: TourLandingData = {
     premiumOldPrice: "3,600₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "საუზმე", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "საუზმე + სადილი", "დაზღვევა + VIP ტრანსფერი", "ცენტრალური მდებარეობა"],
-    bookingUrl: "https://avia.ge/tours/rome-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const romeData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ მოგზაურობით ტკბობაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 999₾-დან",
-    bookingUrl: "https://avia.ge/tours/rome-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ რომისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 999₾-დან",
-    bookingUrl: "https://avia.ge/tours/rome-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const romeData: TourLandingData = {
   mobileStickyBar: {
     price: "999₾",
     oldPrice: "1,400₾",
-    bookingUrl: "https://avia.ge/tours/rome-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით რომში",

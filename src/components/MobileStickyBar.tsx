@@ -11,7 +11,7 @@ interface MobileStickyBarProps {
 export default function MobileStickyBar({
   price = "1,550₾",
   label = "დაჯავშნე",
-  href = "https://avia.ge/tours/antalya-tour/",
+  href = "#lead-form",
 }: MobileStickyBarProps) {
   const [visible, setVisible] = useState(false);
 
@@ -37,8 +37,6 @@ export default function MobileStickyBar({
         </div>
         <a
           href={href}
-          target="_blank"
-          rel="noopener noreferrer"
           className="rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 active:scale-95"
         >
           {label}

@@ -24,7 +24,7 @@ export default function EarlyBookingSection() {
           ))}
         </div>
         <div className="mt-10 text-center">
-          <a href="https://avia.ge/tours/antalya-tour/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-10 py-4 text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-xl active:scale-95">წინასწარ დაჯავშნა — 1,550₾-დან</a>
+          <a href="#lead-form" className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-10 py-4 text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-xl active:scale-95">წინასწარ დაჯავშნა — 1,550₾-დან</a>
         </div>
       </div>
     </section>

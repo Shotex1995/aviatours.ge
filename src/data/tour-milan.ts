@@ -25,7 +25,7 @@ export const milanData: TourLandingData = {
     subtitle: "მოდის დედაქალაქი, დუომოს კათედრალი, ლა სკალას თეატრი და ნავილის არხები — აღმოაჩინე იტალიის ბრწყინვალება",
     oldPrice: "1,500₾",
     currentPrice: "1,082₾",
-    bookingUrl: "https://avia.ge/tours/milan-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა მილანის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const milanData: TourLandingData = {
     premiumOldPrice: "4,100₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "საუზმე", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "საუზმე + რესტორნის ვაუჩერი", "დაზღვევა + VIP ტრანსფერი", "ქალაქის ცენტრში განთავსება"],
-    bookingUrl: "https://avia.ge/tours/milan-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const milanData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ მოგზაურობით ტკბობაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 1,082₾-დან",
-    bookingUrl: "https://avia.ge/tours/milan-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ მილანისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 1,082₾-დან",
-    bookingUrl: "https://avia.ge/tours/milan-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const milanData: TourLandingData = {
   mobileStickyBar: {
     price: "1,082₾",
     oldPrice: "1,500₾",
-    bookingUrl: "https://avia.ge/tours/milan-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით მილანში",

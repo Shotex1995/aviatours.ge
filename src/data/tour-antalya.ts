@@ -25,7 +25,7 @@ export const antalyaData: TourLandingData = {
     subtitle: "მზიანი სანაპიროები, All Inclusive სერვისი და დაუვიწყარი მოგზაურობა თურქეთის საუკეთესო კურორტზე",
     oldPrice: "2,200₾",
     currentPrice: "1,550₾",
-    bookingUrl: "https://avia.ge/tours/antalya-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა ანტალიის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const antalyaData: TourLandingData = {
     premiumOldPrice: "6,200₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "All Inclusive კვება", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "Ultra All Inclusive", "დაზღვევა + VIP ტრანსფერი", "ზღვის ხედიანი ნომერი"],
-    bookingUrl: "https://avia.ge/tours/antalya-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const antalyaData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ დასვენებაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 1,550₾-დან",
-    bookingUrl: "https://avia.ge/tours/antalya-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ ანტალიისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 1,550₾-დან",
-    bookingUrl: "https://avia.ge/tours/antalya-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const antalyaData: TourLandingData = {
   mobileStickyBar: {
     price: "1,550₾",
     oldPrice: "2,200₾",
-    bookingUrl: "https://avia.ge/tours/antalya-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით ანტალიაში",

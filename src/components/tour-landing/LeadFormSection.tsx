@@ -17,7 +17,7 @@ export default function LeadFormSection({ leadForm }: { leadForm: LeadFormData }
   };
 
   return (
-    <section className="border-y border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50 px-4 py-16 sm:px-6 lg:px-8">
+    <section id="lead-form" className="scroll-mt-20 border-y border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50 px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="mb-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">გაინტერესებთ? დაგვიკავშირდით!</h2>
         <p className="mb-8 text-gray-500">შეავსეთ ფორმა და WhatsApp-ით მოგწერთ ჩვენი კონსულტანტი საუკეთესო შეთავაზებით.</p>

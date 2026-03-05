@@ -25,7 +25,7 @@ export const istanbulData: TourLandingData = {
     subtitle: "ევროპისა და აზიის გზაჯვარედინზე — აია-სოფია, დიდი ბაზარი, ბოსფორის სრუტე და დაუვიწყარი მოგზაურობა",
     oldPrice: "950₾",
     currentPrice: "686₾",
-    bookingUrl: "https://avia.ge/tours/istanbul-tour/",
+    bookingUrl: "#lead-form",
     whatsappMessage: "გამარჯობა! მინდა სტამბოლის ტურის დაჯავშნა",
   },
 
@@ -63,7 +63,7 @@ export const istanbulData: TourLandingData = {
     premiumOldPrice: "2,800₾",
     budgetFeatures: ["ავიაბილეთი თბილისიდან", "4★ სასტუმრო", "Half Board კვება", "დაზღვევა + ტრანსფერი"],
     premiumFeatures: ["ავიაბილეთი თბილისიდან", "5★ პრემიუმ სასტუმრო", "Half Board + ა ლა კარტე", "დაზღვევა + VIP ტრანსფერი", "ბოსფორის ხედიანი ნომერი"],
-    bookingUrl: "https://avia.ge/tours/istanbul-tour/",
+    bookingUrl: "#lead-form",
   },
 
   earlyBooking: {
@@ -74,14 +74,14 @@ export const istanbulData: TourLandingData = {
       { emoji: "🛡️", title: "სრული დაცვა", desc: "ტურში შედის სამოგზაურო დაზღვევა და ტრანსფერი. თქვენ მხოლოდ მოგზაურობაზე ფიქრობთ." },
     ],
     ctaText: "წინასწარ დაჯავშნა — 686₾-დან",
-    bookingUrl: "https://avia.ge/tours/istanbul-tour/",
+    bookingUrl: "#lead-form",
   },
 
   finalCta: {
     heading: "მზად ხართ სტამბოლისთვის?",
     subheading: "დაჯავშნეთ ახლავე და მიიღეთ საუკეთესო ფასი. ჩვენი გუნდი მუდმივად მზადაა, რომ დაგეხმაროთ.",
     ctaText: "დაჯავშნე — 686₾-დან",
-    bookingUrl: "https://avia.ge/tours/istanbul-tour/",
+    bookingUrl: "#lead-form",
   },
 
   exitIntent: {
@@ -97,7 +97,7 @@ export const istanbulData: TourLandingData = {
   mobileStickyBar: {
     price: "686₾",
     oldPrice: "950₾",
-    bookingUrl: "https://avia.ge/tours/istanbul-tour/",
+    bookingUrl: "#lead-form",
   },
 
   hotelSubheading: "სადაც განთავსდებით სტამბოლში",
