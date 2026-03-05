@@ -140,14 +140,12 @@ export default function TourPage({ params }: { params: { id: string } }) {
                 </div>
               </div>
 
-              <a
-                href={tour.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href={`/${tour.slug}`}
                 className="block w-full rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3.5 text-center text-base font-semibold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 hover:shadow-xl active:scale-95"
               >
                 დაჯავშნე ახლავე
-              </a>
+              </Link>
 
               <a
                 href="tel:+995558302303"
@@ -180,11 +178,9 @@ export default function TourPage({ params }: { params: { id: string } }) {
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {otherTours.map((t) => (
-              <a
+              <Link
                 key={t.id}
-                href={t.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`/${t.slug}`}
                 className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
                 <div className="relative aspect-[3/2] overflow-hidden">
@@ -208,7 +204,7 @@ export default function TourPage({ params }: { params: { id: string } }) {
                     </span>
                   </p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>

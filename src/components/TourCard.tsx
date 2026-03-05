@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Tour } from "@/data/tours";
 
 interface TourCardProps {
@@ -7,10 +8,8 @@ interface TourCardProps {
 
 export default function TourCard({ tour }: TourCardProps) {
   return (
-    <a
-      href={tour.bookingUrl}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      href={`/${tour.slug}`}
       className="group block overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
     >
       <div className="relative aspect-[3/2] overflow-hidden">
@@ -54,6 +53,6 @@ export default function TourCard({ tour }: TourCardProps) {
           </span>
         </div>
       </div>
-    </a>
+    </Link>
   );
 }

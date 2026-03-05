@@ -1,5 +1,6 @@
 export interface Tour {
   id: number;
+  slug: string;
   title: string;
   destination: string;
   imageUrl: string;
@@ -14,6 +15,7 @@ export interface Tour {
 export const tours: Tour[] = [
   {
     id: 1,
+    slug: "rome",
     title: "რომის ტური",
     destination: "რომი, იტალია",
     imageUrl:
@@ -33,6 +35,7 @@ export const tours: Tour[] = [
   },
   {
     id: 2,
+    slug: "milan",
     title: "მილანის ტური",
     destination: "მილანი, იტალია",
     imageUrl:
@@ -52,6 +55,7 @@ export const tours: Tour[] = [
   },
   {
     id: 3,
+    slug: "madrid",
     title: "მადრიდის ტური",
     destination: "მადრიდი, ესპანეთი",
     imageUrl:
@@ -71,6 +75,7 @@ export const tours: Tour[] = [
   },
   {
     id: 4,
+    slug: "istanbul",
     title: "სტამბოლის ტური",
     destination: "სტამბოლი, თურქეთი",
     imageUrl:
@@ -90,6 +95,7 @@ export const tours: Tour[] = [
   },
   {
     id: 5,
+    slug: "dubai",
     title: "დუბაის ტური",
     destination: "დუბაი, ა.გ.ს.",
     imageUrl:
@@ -109,6 +115,7 @@ export const tours: Tour[] = [
   },
   {
     id: 6,
+    slug: "maldives",
     title: "მალდივების ტური",
     destination: "მალდივები",
     imageUrl:
@@ -128,6 +135,7 @@ export const tours: Tour[] = [
   },
   {
     id: 7,
+    slug: "antalya",
     title: "ანტალიის ტური",
     destination: "ანტალია, თურქეთი",
     imageUrl:
@@ -147,6 +155,7 @@ export const tours: Tour[] = [
   },
   {
     id: 8,
+    slug: "santorini",
     title: "სანტორინის ტური",
     destination: "სანტორინი, საბერძნეთი",
     imageUrl:
