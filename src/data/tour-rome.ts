@@ -46,7 +46,7 @@ export const romeData: TourLandingData = {
   video: {
     heading: "ნახე რომი ვიდეოში",
     subheading: "გაიცანი მარადიული ქალაქი, სანამ გეწვევი",
-    youtubeId: "uz3FPQjgJcA",
+    youtubeId: "x4qv5vCQylo",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const romeData: TourLandingData = {
 
   exitIntent: {
     tourName: "რომის",
-    promoCode: "ROME10",
-    whatsappMessage: "გამარჯობა! ვნახე რომის აქცია და მინდა 10% ფასდაკლება. პრომო: ROME10",
+    internetOffer: "ულიმიტო",
+    whatsappMessage: "გამარჯობა! მინდა რომის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

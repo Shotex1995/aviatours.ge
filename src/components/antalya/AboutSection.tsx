@@ -14,10 +14,10 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-3">
-            <div className="relative aspect-[3/4] overflow-hidden rounded-2xl"><Image src="https://avia.ge/wp-content/uploads/2025/08/avia-tours-2-1.jpg" alt="ანტალიის ხედი" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
+            <div className="relative aspect-[3/4] overflow-hidden rounded-2xl"><Image src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="ანტალიის ხედი" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
             <div className="space-y-3">
-              <div className="relative aspect-square overflow-hidden rounded-2xl"><Image src="https://avia.ge/wp-content/uploads/2025/08/avia-tours-4-1.jpg" alt="ანტალიის ბუნება" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
-              <div className="relative aspect-square overflow-hidden rounded-2xl"><Image src="https://avia.ge/wp-content/uploads/2025/06/turkuli-abanoebi-antalia.jpg" alt="თურქული აბანოები" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
+              <div className="relative aspect-square overflow-hidden rounded-2xl"><Image src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800" alt="ანტალიის ბუნება" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
+              <div className="relative aspect-square overflow-hidden rounded-2xl"><Image src="https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800" alt="თურქული აბანოები" fill className="object-cover" sizes="(max-width: 1024px) 50vw, 25vw" /></div>
             </div>
           </div>
         </div>

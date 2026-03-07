@@ -19,7 +19,7 @@ export const tours: Tour[] = [
     title: "რომის ტური",
     destination: "რომი, იტალია",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2026/03/romis-turi.jpg",
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
     price: 999,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -39,7 +39,7 @@ export const tours: Tour[] = [
     title: "მილანის ტური",
     destination: "მილანი, იტალია",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2026/03/milanis-turi.jpg",
+      "https://images.unsplash.com/photo-1520440229-6469d12776c1?w=800",
     price: 1082,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -59,7 +59,7 @@ export const tours: Tour[] = [
     title: "მადრიდის ტური",
     destination: "მადრიდი, ესპანეთი",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2025/08/madridis-turi.jpg",
+      "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800",
     price: 1089,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -79,7 +79,7 @@ export const tours: Tour[] = [
     title: "სტამბოლის ტური",
     destination: "სტამბოლი, თურქეთი",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2026/02/stambolis-turi.jpg",
+      "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800",
     price: 686,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -99,7 +99,7 @@ export const tours: Tour[] = [
     title: "დუბაის ტური",
     destination: "დუბაი, ა.გ.ს.",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2026/02/dubai-tour.jpg",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
     price: 950,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -119,7 +119,7 @@ export const tours: Tour[] = [
     title: "მალდივების ტური",
     destination: "მალდივები",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2025/11/maldives-turebi.jpg",
+      "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800",
     price: 3650,
     currency: "₾",
     duration: "6 ღამე / 7 დღე",
@@ -139,7 +139,7 @@ export const tours: Tour[] = [
     title: "ანტალიის ტური",
     destination: "ანტალია, თურქეთი",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2025/08/antalia-tour.jpg",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800",
     price: 1550,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
@@ -159,7 +159,7 @@ export const tours: Tour[] = [
     title: "სანტორინის ტური",
     destination: "სანტორინი, საბერძნეთი",
     imageUrl:
-      "https://avia.ge/wp-content/uploads/2025/08/santorini-tours.jpg",
+      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800",
     price: 1300,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",

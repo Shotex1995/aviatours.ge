@@ -4,7 +4,7 @@ import CountdownTimer from "./CountdownTimer";
 export default function HeroSection() {
   return (
     <section className="relative h-[85vh] min-h-[600px]">
-      <Image src="https://avia.ge/wp-content/uploads/2025/08/avia-tours-6.jpg" alt="ანტალიის სანაპირო" fill className="object-cover" sizes="100vw" priority />
+      <Image src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="ანტალიის სანაპირო" fill className="object-cover" sizes="100vw" priority />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
       <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center">

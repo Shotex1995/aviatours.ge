@@ -46,7 +46,7 @@ export const santoriniData: TourLandingData = {
   video: {
     heading: "ნახე სანტორინი ვიდეოში",
     subheading: "გაიცანი კუნძული, სანამ გეწვევი",
-    youtubeId: "v2f8CylKLl0",
+    youtubeId: "MQSBFftu6Rg",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const santoriniData: TourLandingData = {
 
   exitIntent: {
     tourName: "სანტორინის",
-    promoCode: "SANTOR10",
-    whatsappMessage: "გამარჯობა! ვნახე სანტორინის აქცია და მინდა 10% ფასდაკლება. პრომო: SANTOR10",
+    internetOffer: "ულიმიტო",
+    whatsappMessage: "გამარჯობა! მინდა სანტორინის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

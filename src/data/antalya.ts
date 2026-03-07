@@ -62,25 +62,25 @@ export const hotels: HotelInfo[] = [
   {
     name: "Ramada Resort Lara",
     stars: 4,
-    imageUrl: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-1.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
     features: ["All Inclusive", "სანაპიროზე", "აუზი", "SPA ცენტრი"],
   },
   {
     name: "Rixos Premium Belek",
     stars: 5,
-    imageUrl: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-2-1.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800",
     features: ["Ultra All Inclusive", "კერძო სანაპირო", "6 აუზი", "გოლფის მოედანი"],
   },
   {
     name: "Delphin Imperial",
     stars: 5,
-    imageUrl: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-4-1.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800",
     features: ["Ultra All Inclusive", "აკვაპარკი", "SPA", "ბავშვთა კლუბი"],
   },
   {
     name: "Titanic Mardan Palace",
     stars: 5,
-    imageUrl: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-3-1.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
     features: ["Ultra All Inclusive", "კერძო სანაპირო", "10 რესტორანი", "VIP სერვისი"],
   },
 ];
@@ -161,12 +161,12 @@ export const testimonials = [
 
 // ===== GALLERY =====
 export const galleryImages = [
-  { src: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-6.jpg", alt: "ანტალიის სანაპირო" },
-  { src: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-2-1.jpg", alt: "ანტალიის ხედი" },
-  { src: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-4-1.jpg", alt: "ანტალიის ბუნება" },
-  { src: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-3-1.jpg", alt: "ანტალიის ქალაქი" },
-  { src: "https://avia.ge/wp-content/uploads/2025/08/avia-tours-1.jpg", alt: "ანტალიის აუზი" },
-  { src: "https://avia.ge/wp-content/uploads/2025/06/turkuli-abanoebi-antalia.jpg", alt: "თურქული აბანოები" },
+  { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800", alt: "ანტალიის სანაპირო" },
+  { src: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800", alt: "ანტალიის ხედი" },
+  { src: "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800", alt: "ანტალიის ბუნება" },
+  { src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800", alt: "ანტალიის ქალაქი" },
+  { src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800", alt: "ანტალიის აუზი" },
+  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800", alt: "თურქული აბანოები" },
 ];
 
 // ===== INCLUDED ITEMS =====

@@ -41,7 +41,7 @@ export default function ExitIntentPopup() {
 
   if (!show) return null;
 
-  const msg = encodeURIComponent("გამარჯობა! ვნახე ანტალიის აქცია და მინდა 10% ფასდაკლება. პრომო: AVIA10");
+  const msg = encodeURIComponent("გამარჯობა! მინდა ანტალიის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!");
 
   return (
     <div className="fixed inset-0 z-[90] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
@@ -51,13 +51,14 @@ export default function ExitIntentPopup() {
         </button>
 
         <div className="mb-4 flex justify-center">
-          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 text-3xl">🎁</div>
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-blue-100 text-3xl">🌐</div>
         </div>
         <h3 className="mb-2 text-center text-2xl font-extrabold text-gray-900">მოიცადეთ!</h3>
-        <p className="mb-6 text-center text-gray-500">მიიღეთ <span className="font-bold text-orange-600">10% ფასდაკლება</span> ანტალიის ტურზე. პრომო კოდი:</p>
+        <p className="mb-6 text-center text-gray-500">დაჯავშნეთ ანტალიის ტური და მიიღეთ <span className="font-bold text-orange-600">ულიმიტო სამოგზაურო ინტერნეტი</span> სრულიად უფასოდ!</p>
 
-        <div className="mb-6 rounded-xl bg-orange-50 p-4 text-center">
-          <span className="text-2xl font-extrabold tracking-widest text-orange-600">AVIA10</span>
+        <div className="mb-6 rounded-xl bg-blue-50 p-4 text-center">
+          <span className="text-2xl font-extrabold tracking-widest text-blue-600">ულიმიტო INTERNET</span>
+          <p className="mt-1 text-sm text-blue-500">საჩუქრად ყველა მგზავრისთვის</p>
         </div>
 
         <a
@@ -66,7 +67,7 @@ export default function ExitIntentPopup() {
           rel="noopener noreferrer"
           className="block w-full rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 py-4 text-center text-lg font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:from-orange-600 hover:to-orange-700 active:scale-95"
         >
-          გამოიყენე ფასდაკლება
+          მინდა ინტერნეტი!
         </a>
         <button onClick={() => setShow(false)} className="mt-3 w-full text-center text-sm text-gray-400 hover:text-gray-600">
           არა, მადლობა

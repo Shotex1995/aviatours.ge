@@ -46,7 +46,7 @@ export const maldivesData: TourLandingData = {
   video: {
     heading: "ნახე მალდივები ვიდეოში",
     subheading: "გაიცანი კუნძულები, სანამ გეწვევი",
-    youtubeId: "JFKR_5KWMHU",
+    youtubeId: "Uw1DdnX4nbg",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const maldivesData: TourLandingData = {
 
   exitIntent: {
     tourName: "მალდივების",
-    promoCode: "MALDIV10",
-    whatsappMessage: "გამარჯობა! ვნახე მალდივების აქცია და მინდა 10% ფასდაკლება. პრომო: MALDIV10",
+    internetOffer: "10 GB",
+    whatsappMessage: "გამარჯობა! მინდა მალდივების ტურის დაჯავშნა და 10 GB სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

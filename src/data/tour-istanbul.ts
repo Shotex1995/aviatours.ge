@@ -46,7 +46,7 @@ export const istanbulData: TourLandingData = {
   video: {
     heading: "ნახე სტამბოლი ვიდეოში",
     subheading: "გაიცანი ქალაქი, სანამ გეწვევი",
-    youtubeId: "4rivNmKbMa4",
+    youtubeId: "4S6NJZmpMok",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const istanbulData: TourLandingData = {
 
   exitIntent: {
     tourName: "სტამბოლის",
-    promoCode: "AVIA10",
-    whatsappMessage: "გამარჯობა! ვნახე სტამბოლის აქცია და მინდა 10% ფასდაკლება. პრომო: AVIA10",
+    internetOffer: "ულიმიტო",
+    whatsappMessage: "გამარჯობა! მინდა სტამბოლის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

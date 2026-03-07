@@ -46,7 +46,7 @@ export const milanData: TourLandingData = {
   video: {
     heading: "ნახე მილანი ვიდეოში",
     subheading: "გაიცანი ქალაქი, სანამ გეწვევი",
-    youtubeId: "Cjm7OS-k1Iw",
+    youtubeId: "3JIUXLcSEbA",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const milanData: TourLandingData = {
 
   exitIntent: {
     tourName: "მილანის",
-    promoCode: "MILAN10",
-    whatsappMessage: "გამარჯობა! ვნახე მილანის აქცია და მინდა 10% ფასდაკლება. პრომო: MILAN10",
+    internetOffer: "ულიმიტო",
+    whatsappMessage: "გამარჯობა! მინდა მილანის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

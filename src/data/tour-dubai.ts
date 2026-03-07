@@ -46,7 +46,7 @@ export const dubaiData: TourLandingData = {
   video: {
     heading: "ნახე დუბაი ვიდეოში",
     subheading: "გაიცანი ქალაქი, სანამ გეწვევი",
-    youtubeId: "CHPGSn_JpWA",
+    youtubeId: "m6gTVppI-10",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const dubaiData: TourLandingData = {
 
   exitIntent: {
     tourName: "დუბაის",
-    promoCode: "AVIA10",
-    whatsappMessage: "გამარჯობა! ვნახე დუბაის აქცია და მინდა 10% ფასდაკლება. პრომო: AVIA10",
+    internetOffer: "10 GB",
+    whatsappMessage: "გამარჯობა! მინდა დუბაის ტურის დაჯავშნა და 10 GB სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

@@ -46,7 +46,7 @@ export const madridData: TourLandingData = {
   video: {
     heading: "ნახე მადრიდი ვიდეოში",
     subheading: "გაიცანი ქალაქი, სანამ გეწვევი",
-    youtubeId: "cXMGKiN2_JE",
+    youtubeId: "AsuDyA2GZFc",
   },
 
   map: {
@@ -86,8 +86,8 @@ export const madridData: TourLandingData = {
 
   exitIntent: {
     tourName: "მადრიდის",
-    promoCode: "MADRID10",
-    whatsappMessage: "გამარჯობა! ვნახე მადრიდის აქცია და მინდა 10% ფასდაკლება. პრომო: MADRID10",
+    internetOffer: "ულიმიტო",
+    whatsappMessage: "გამარჯობა! მინდა მადრიდის ტურის დაჯავშნა და ულიმიტო სამოგზაურო ინტერნეტის მიღება!",
   },
 
   leadForm: {

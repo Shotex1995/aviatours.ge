@@ -111,7 +111,7 @@ export interface FinalCtaData {
 
 export interface ExitIntentData {
   tourName: string;
-  promoCode: string;
+  internetOffer: string;
   whatsappMessage: string;
 }
 

@@ -16,7 +16,7 @@ export default function VideoSection() {
         <div className="relative overflow-hidden rounded-2xl shadow-2xl" style={{ paddingBottom: "56.25%" }}>
           {playing ? (
             <iframe
-              src="https://www.youtube.com/embed/cHIdIMhDRig?rel=0&autoplay=1"
+              src="https://www.youtube.com/embed/_Z2Bb1hoPIs?rel=0&autoplay=1"
               title="ანტალია - ტურისტული გიდი"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
@@ -25,7 +25,7 @@ export default function VideoSection() {
           ) : (
             <button onClick={() => setPlaying(true)} className="absolute inset-0 group cursor-pointer">
               <Image
-                src="https://i.ytimg.com/vi/cHIdIMhDRig/maxresdefault.jpg"
+                src="https://i.ytimg.com/vi/_Z2Bb1hoPIs/maxresdefault.jpg"
                 alt="ანტალია ვიდეო თამბნეილი"
                 fill
                 className="object-cover"
