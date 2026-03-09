@@ -1,8 +1,11 @@
+import Link from "next/link";
+import { tours } from "@/data/tours";
+
 export default function Footer() {
   return (
     <footer className="border-t border-gray-200 bg-gray-900 text-gray-300">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="mb-4 flex items-center gap-2.5">
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-orange-600 shadow-md shadow-orange-500/20">
@@ -21,6 +24,47 @@ export default function Footer() {
               საუკეთესო ტურისტული პაკეტები საქართველოდან მსოფლიოს ნებისმიერ
               წერტილში. ენდეთ პროფესიონალებს.
             </p>
+          </div>
+
+          <div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+              ტურები
+            </h3>
+            <ul className="space-y-2 text-sm">
+              {tours.map((tour) => (
+                <li key={tour.slug}>
+                  <Link
+                    href={`/${tour.slug}`}
+                    className="transition-colors hover:text-orange-400"
+                  >
+                    {tour.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
+              ინფორმაცია
+            </h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/about" className="transition-colors hover:text-orange-400">
+                  ჩვენს შესახებ
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="transition-colors hover:text-orange-400">
+                  კონტაქტი
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="transition-colors hover:text-orange-400">
+                  სამომხმარებლო პოლიტიკა
+                </Link>
+              </li>
+            </ul>
           </div>
 
           <div>
@@ -44,18 +88,6 @@ export default function Footer() {
                   info@aviatours.ge
                 </a>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-              პოპულარული მიმართულებები
-            </h3>
-            <ul className="space-y-2 text-sm">
-              <li>სტამბოლი</li>
-              <li>დუბაი</li>
-              <li>რომი</li>
-              <li>მალდივები</li>
             </ul>
           </div>
         </div>

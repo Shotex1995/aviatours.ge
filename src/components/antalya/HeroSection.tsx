@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CountdownTimer from "./CountdownTimer";
+import SeatsLeftBadge from "../tour-landing/SeatsLeftBadge";
 
 export default function HeroSection() {
   return (
@@ -8,10 +9,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10" />
       <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center">
-          <span className="mb-3 inline-flex items-center gap-2 rounded-full bg-red-500/90 px-4 py-1.5 text-sm font-bold text-white backdrop-blur-sm">
-            <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75" /><span className="relative inline-flex h-2 w-2 rounded-full bg-white" /></span>
-            დარჩა მხოლოდ 4 ადგილი ამ ფასად!
-          </span>
+          <SeatsLeftBadge slug="antalya" />
           <div className="mb-3">
             <span className="inline-block rounded-full bg-orange-500/90 px-4 py-1.5 text-sm font-semibold text-white backdrop-blur-sm">All Inclusive | 5 დღე, 4 ღამე</span>
           </div>

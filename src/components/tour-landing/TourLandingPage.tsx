@@ -30,7 +30,7 @@ import ExitIntentPopup from "./ExitIntentPopup";
 export default function TourLandingPage({ data }: { data: TourLandingData }) {
   return (
     <>
-      <HeroSection hero={data.hero} />
+      <HeroSection hero={data.hero} slug={data.seo.slug} />
       <TrustBar />
       <AirlineLogos airlines={data.airlines} />
 
