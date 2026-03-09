@@ -4,7 +4,7 @@ export const milanData: TourLandingData = {
   seo: {
     title: "მილანის ტური — AviaTours.ge | საუზმით 1082₾-დან",
     description: "მილანის ტური — 4 ღამე, 5 დღე, ავიაბილეთი, სასტუმრო, საუზმე, დაზღვევა და ტრანსფერი. დაჯავშნეთ წინასწარ და დაზოგეთ.",
-    ogImage: "https://images.unsplash.com/photo-1520440229-6469d12776c1?w=800",
+    ogImage: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800",
     ogTitle: "მილანის ტური — AviaTours.ge",
     ogDescription: "საუზმე | 4 ღამე, 5 დღე | 1,082₾-დან",
     tourName: "მილანის",
@@ -18,7 +18,7 @@ export const milanData: TourLandingData = {
   childDiscount: 0.5,
 
   hero: {
-    backgroundImage: "https://images.unsplash.com/photo-1520440229-6469d12776c1?w=800",
+    backgroundImage: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800",
     backgroundAlt: "მილანის კათედრალი დუომო",
     badge: "საუზმე | 4 ღამე, 5 დღე",
     title: "მილანის ტური",
@@ -169,7 +169,7 @@ export const milanData: TourLandingData = {
   ],
 
   galleryImages: [
-    { src: "https://images.unsplash.com/photo-1520440229-6469d12776c1?w=800", alt: "მილანის კათედრალი დუომო" },
+    { src: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800", alt: "მილანის კათედრალი დუომო" },
     { src: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800", alt: "მილანის დუომოს ხედი" },
     { src: "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?w=800", alt: "ვიტორიო ემანუელეს გალერეა" },
     { src: "https://images.unsplash.com/photo-1569959220744-ff553533f492?w=800", alt: "ნავილის არხები მილანში" },

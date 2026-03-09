@@ -1,11 +1,32 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'BPG Nino Mtavruli';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/bpg-nino-mtavruli.woff2') format('woff2'),
+       url('/fonts/bpg-nino-mtavruli.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BPG Nino Mtavruli';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/bpg-nino-mtavruli-bold.woff2') format('woff2'),
+       url('/fonts/bpg-nino-mtavruli-bold.woff') format('woff');
+}
+
 @theme inline {
   --font-sans: var(--font-geist-sans);
+  --font-georgian: 'BPG Nino Mtavruli', sans-serif;
 }
 
 body {
   font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-georgian);
 }
 
 /* Scroll reveal animations */

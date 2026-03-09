@@ -4,14 +4,18 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-orange-500 to-orange-600 text-base font-bold text-white">
-                A
+            <div className="mb-4 flex items-center gap-2.5">
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-orange-500 to-orange-600 shadow-md shadow-orange-500/20">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="h-4.5 w-4.5">
+                  <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                </svg>
               </div>
-              <span className="text-lg font-bold text-white">
-                Avia<span className="text-orange-400">Tours</span>
-                <span className="text-xs text-gray-500">.ge</span>
-              </span>
+              <div className="flex flex-col">
+                <span className="text-lg font-extrabold text-white">
+                  Avia<span className="text-orange-400">Tours</span>
+                </span>
+                <span className="text-[10px] font-medium uppercase tracking-widest text-gray-500">.ge</span>
+              </div>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
               საუკეთესო ტურისტული პაკეტები საქართველოდან მსოფლიოს ნებისმიერ

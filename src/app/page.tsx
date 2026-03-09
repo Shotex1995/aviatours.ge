@@ -9,9 +9,6 @@ export default function Home() {
         <div className="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-orange-100 opacity-40 blur-3xl" />
         <div className="absolute -bottom-32 -left-32 h-96 w-96 rounded-full bg-blue-100 opacity-40 blur-3xl" />
         <div className="relative mx-auto max-w-7xl text-center">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-orange-500">
-            AviaTours.ge
-          </p>
           <h1 className="mb-5 text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
             აღმოაჩინე <span className="text-orange-500">სამყარო</span>{" "}
             ჩვენთან ერთად

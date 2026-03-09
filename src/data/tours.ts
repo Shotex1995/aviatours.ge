@@ -39,7 +39,7 @@ export const tours: Tour[] = [
     title: "მილანის ტური",
     destination: "მილანი, იტალია",
     imageUrl:
-      "https://images.unsplash.com/photo-1520440229-6469d12776c1?w=800",
+      "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800",
     price: 1082,
     currency: "₾",
     duration: "4 ღამე / 5 დღე",
